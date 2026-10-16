@@ -20,6 +20,12 @@ The second-largest-element example can be run with:
 java -cp target/classes com.example.basicprograms.SecondLargestElementArray
 ```
 
+The maximum-subarray-sum example can be run with:
+
+```sh
+java -cp target/classes com.example.basicprograms.MaximumSubarraySum
+```
+
 ## Project layout
 
 ```text
