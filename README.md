@@ -32,6 +32,12 @@ The maximum-subarray-sum example can be run with:
 java -cp target/classes com.example.basicprograms.MaximumSubarraySum
 ```
 
+The binary-search example can be run with:
+
+```sh
+java -cp target/classes com.example.basicprograms.BinarySearch
+```
+
 ## Project layout
 
 ```text
