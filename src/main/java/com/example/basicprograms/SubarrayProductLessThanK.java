@@ -1,7 +1,7 @@
 package com.example.basicprograms;
 
 public class SubarrayProductLessThanK {
-    public static long countSubarraysProductLessThanK(int[] arr, long k) {
+    public static int countSubarraysProductLessThanK(int[] arr, long k) {
         for (int value : arr) {
             if (value <= 0) {
                 throw new IllegalArgumentException("Array elements must be positive.");
@@ -13,7 +13,7 @@ public class SubarrayProductLessThanK {
         }
 
         long product = 1;
-        long count = 0;
+        int count = 0;
         int left = 0;
 
         for (int right = 0; right < arr.length; right++) {
@@ -29,7 +29,7 @@ public class SubarrayProductLessThanK {
             }
 
             product *= arr[right];
-            count += right - left + 1L;
+            count += right - left + 1;
         }
 
         return count;
